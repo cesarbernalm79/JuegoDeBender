@@ -1,0 +1,181 @@
+body{
+    width: 100%;
+    margin: 0;
+    height: auto;
+    background: url('img/fondostar.png') no-repeat center;
+    background-size: cover;
+    font-family: 'Courgette', cursive;
+    min-height: 100vh;
+}
+main{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+}
+header{
+    width: 100%;
+    background: rgba(255,255,255,.6);
+    display: flex;
+}
+.titulo{
+
+    width: 55%;
+    display: flex;
+    
+}
+.mensajebender{
+    width: 100%;
+    display: inline-block;
+}
+
+.alura{
+    width: 7%;
+    height: 30%;
+    margin: 6% 0 0 2%;
+    vertical-align:middle;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 3px 3px 3px 3px ;
+    background: rgba(255,255,255,.4);
+     
+}
+
+.titulo-Nombre{
+    width: 100%;
+    text-align: center;
+    font-size: 3em; /* con (2em) estamos pidiendo que multiplique por 2 el tamaño que viene por defecto de la letra*/
+    margin: 2% 2% 0 2%;/* 0 arriba, 0 derecha, 1em abajo, 0 izquierda*/
+    color: darkslategrey;
+    text-shadow: 2px 3px lightyellow;
+    font-style: italic;    
+}
+
+ header .mensaje{
+    text-align: center;
+    margin: 1em 1em 1em 1rem;
+    font-size: 1.5rem;
+    color: darkblue;    
+    box-sizing: border-box;
+}
+
+.mensaje strong{
+    font-weight: bold;
+    font-style: italic;
+    color: darkorange;
+}
+
+#imagen{
+    width: 200px;
+}
+#palabra_a_adivinar{
+    height: 1em;
+    font-size: 3em;
+    
+}
+#palabra_a_adivinar span{
+    vertical-align: bottom;
+    font-size: 1.5em;
+    border-bottom: 2px solid black;
+    width: 50px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block; 
+    background: rgba(201,248,197,.7)
+}
+
+
+.botones{
+    width:  100%;
+}
+
+
+.btnInicio{
+    margin: 1% 1% 1% 35%;
+    width: 15%; /* tamaÃ±o de la caja de enviar formulario */
+    padding: 15px 15px 10px 5px; /* espaciamiento del txt en la caja, 15px arriba/abajo, 0 laterales */
+    font-size: 18px; /* tamaÃ±o txt*/
+    font-style: italic; /* letra inclinada */
+    font-weight: bold; /* negrilla*/
+    color: darkblue; /* color del txt*/
+    background: lightyellow; /* color de fondo de la caja */
+    border-radius: 20px; /* bordea las esquinas de la caja por medio del radio */
+    transition: 500ms all; /* este atributo hace la transicion de color tamaÃ±o y txt por defecto al puesto en el hover */
+    cursor:pointer; /* este atributo cambia la flecha por la manito en el cursor*/
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 1px;   
+    flex-wrap: wrap; 
+}
+
+.btnInicio:hover{
+    background: darkblue;
+    color: lightyellow;
+    border-style: solid;
+    border-color: lightyellow;
+    border-width: 1px;
+}
+
+.btnVolver{
+    width: 15%; /* tamaÃ±o de la caja de enviar formulario */
+    padding: 15px 15px 10px 5px; /* espaciamiento del txt en la caja, 15px arriba/abajo, 0 laterales */
+    font-size: 18px; /* tamaÃ±o txt*/
+    font-style: italic; /* letra inclinada */
+    font-weight: bold; /* negrilla*/
+    color: lightyellow; /* color del txt*/
+    background: darkblue; /* color de fondo de la caja */
+    border-radius: 20px; /* bordea las esquinas de la caja por medio del radio */
+    transition: 500ms all; /* este atributo hace la transicion de color tamaÃ±o y txt por defecto al puesto en el hover */
+    cursor:pointer; /* este atributo cambia la flecha por la manito en el cursor*/
+    box-sizing: border-box;
+    border-style: solid;
+    border-color:lightyellow;
+    border-width: 1px;
+    flex-wrap: wrap; 
+
+}
+.btnVolver:hover{
+    background: lightyellow;
+    color: #012e46;
+    border-style: solid;
+    border-color:darkblue;
+    border-width: 1px;
+}
+
+
+#letras{
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+#letras button{
+    
+    width: 15%;
+    padding: 6px 0;
+    text-align: center;
+    border-radius: 2px black;
+    color: #02253d;    
+}
+
+footer{
+    width: auto;
+}
+
+.copyrigth{
+    text-align: center;
+    font-weight: bold;
+}
+/*============================*/
+/*=====clases del alert=====*/
+/*============================*/
+
+.white{
+    color: whitesmoke;
+}
+
+
